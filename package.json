@@ -1,0 +1,14 @@
+{
+  "name": "fylo-landing-page-with-two-column-layout-master",
+  "version": "1.0.0",
+  "description": "In this project, I have to design a landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
