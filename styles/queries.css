@@ -1,0 +1,35 @@
+/* MOBILE */
+@media (max-width: 480) {
+    img {
+        width: 5%;
+    }
+
+    h1, p {
+        font-size: 5px;
+        text-align: center;
+    }
+     
+    .right-nav {
+        margin-left: 10px;
+    }
+
+    .input-form {
+        display: block;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .topnav {
+        width: 100%;
+    }
+
+    .right-nav {
+        margin-left: 100px;
+    }
+
+    .first-content {
+        display: flex;
+        flex-direction: column;
+    }
+}; 
