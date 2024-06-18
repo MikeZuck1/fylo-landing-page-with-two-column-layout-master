@@ -21,29 +21,54 @@
     height: 100vh;
 } 
 
-/* NAVIGATION BAR */
-.topnav {
-    display: flex;
-    flex-direction: row;
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* HEADER */
+header {
     margin-top: 20px;
     width: 100%;
-    /* background: #000;  */
 }
-.topnav a {
-    font-family: "open sans", sans-serif;
-    text-decoration: none;
-    font-size: 16px;
+
+/* BAR NAVIGATION */
+.topnav {
+    display: flex;
+    /* flex-direction: row;  */
+    /* margin: ;   */
 }
 
 .left-nav {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .right-nav {
-    margin-top: 20px;
     margin-left: 70%;
+    margin-top: 20px;
 }
 
-a {
+.right-nav a  {
     margin: 5px;
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--second-color);
+    /* font-weight: bold;  */
+}
+
+/* FIRST CONTENT */
+.first-content {
+    margin-top: 10%;
+    display: flex;
+}
+
+.left-first-content, 
+.right-first-content {
+    flex: 1;
+}
+
+/* FIRST CONTENT */
+.left-first-content {
+    width: 20;
 }
