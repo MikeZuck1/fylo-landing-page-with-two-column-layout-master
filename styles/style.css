@@ -110,13 +110,10 @@ h1 {
 }
 
 /* SECOND CONTENT */
-.second-cotent {
+.second-content {
     margin-top: 10%;
 }
 
-.second-cotent {
-    /* background-image: url(/assets/images/bg-curve-desktop.svg);  */
-    /* background-image: url(/assets/images/bg-curve-desktop.svg);  */
-    background-size: cover;
-    background-position: center;
+.second-content {
+    background-image: url(/assets/images/bg-curve-desktop.svg);
 }
