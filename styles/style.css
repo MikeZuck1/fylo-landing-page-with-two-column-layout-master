@@ -209,7 +209,8 @@ footer {
     flex: 1;
 }
 
-.content-footer {
+.content-footer, 
+.content-footer-social-media {
     flex: 1;
    /*  border: 1px solid var(--fith-color); Ajout d'une bordure pour visualiser les divisions */
     padding: 10px;
@@ -236,14 +237,52 @@ footer img {
     color: var(--fith-color);
 }
 
-/* FOOTER ID's */
-#first-content-footer {
-    margin-top: 10%;
-    margin-left: 5%;
+.content-footer i {
+    margin: 0px 10px;
+    border: 5px solid var(--fith-border);
+    border-radius: 5px;
+    color: var(--fith-color);
+    cursor: pointer;
 }
 
-#phone-icon {
-    width: 3%;
+.content-footer-social-media, 
+.fb-font, 
+.tw-font, 
+.insta-font {
+    display: flex;
+    flex-direction: row;
+}
+
+.fb-font, 
+.tw-font, 
+.insta-font {
+    margin: 5px;
+    margin-top: 20%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+    border: 1px solid var(--fith-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fb-font a {
+    color: var(--fith-color); 
+}
+.tw-font a {
+    color: var(--fith-color);
+}
+.insta-font a {
+    color: var(--fith-color); 
+}
+
+/* FOOTER ID's */
+#first-content-footer {
+    margin-top: 20%; 
+    margin-left: 10%;
 }
 
 #first-content-footer, 
