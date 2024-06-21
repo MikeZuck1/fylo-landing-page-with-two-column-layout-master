@@ -199,12 +199,13 @@ h1 {
 /* FOOTER */
 .footer {
     background: var(--primary-color);
-    height: 35%;
+    height: 40%;
     display: flex;
     /* align-items: center; Optionnel : pour centrer verticalement le contenu */
 }
 
 footer {
+    margin-top: 3%;
     display: flex;
     flex: 1;
 }
@@ -212,7 +213,7 @@ footer {
 .content-footer, 
 .content-footer-social-media {
     flex: 1;
-   /*  border: 1px solid var(--fith-color); Ajout d'une bordure pour visualiser les divisions */
+    /* border: 1px solid var(--fith-color); Ajout d'une bordure pour visualiser les divisions */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -232,8 +233,8 @@ footer img {
     margin-top: 5%;
     margin-left: 5%;
     font-family: "open sans", sans-serif;
-    font-size: 12px;
-    text-decoration: none;
+    font-size: 15px;
+    text-decoration: none; 
     color: var(--fith-color);
 }
 
@@ -279,22 +280,35 @@ footer img {
     color: var(--fith-color); 
 }
 
-/* FOOTER ID's */
-#first-content-footer {
-    margin-top: 20%; 
+.logo-fylo {
+    margin-top: 5%;
+    margin-bottom: 4%; 
     margin-left: 10%;
 }
 
-#first-content-footer, 
-#phone-icon {
+.contact-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
-#phone-icon {
-    margin-top: 15px;
-    margin-left: 5%;
-    width: 4%;
+.second-contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.phone-email-icons, 
+.info-email {
+    width: 12%;
+}
+
+.info-phone, 
+.info-email {
+    font-size: 15px;
 }
 
 #footer-link {
