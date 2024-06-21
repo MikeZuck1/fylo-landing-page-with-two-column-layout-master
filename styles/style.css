@@ -13,8 +13,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; 
+} 
 
 body {
     height: 100vh;
@@ -138,19 +138,126 @@ h1 {
     margin-top: 15%;
 }
 
-/*NESWLETTER CONTENT*/
+/* NESWLETTER CONTENT */
 .newsletter {
-    margin-top: 5%;
+    margin-top: 15%;
     background: var(--second-color);
-    height: 30%;
+    display: flex;
+    height: 35%;
 }
 
-.newsletter, 
-.left-side-newsletter, h2 {
+.left-side-newsletter, 
+.rigth-side-newsletter {
+    flex: 1;
+}
+
+/* NESWLETTER CONTENT LEFT SIDE */
+.left-side-newsletter {
+    margin-left: 5%;
+    width: 5px;
+}
+
+.left-side-newsletter h2 {
+    margin-top: 10%;
+    display: flex;
     font-family: "open sans", sans-serif;
     color: var(--fith-color);
 }
 
-.left-side-newsletter {
-    margin-top: 20%; 
+.left-side-newsletter p {
+    margin-top: 3%;
+    font-family: "open sans", sans-serif;
+    color: var(--fith-color);
+}
+
+/* NESWLETTER CONTENT RIGHT SIDE */
+.rigth-side-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rigth-side-newsletter input {
+    margin-top: 10%;
+    padding: 10px;
+    width: 75%;
+    padding: 1.3%;
+    border: 1px solid #000;
+}
+
+.rigth-side-newsletter button {
+    margin-top: 1%;
+    padding: 1.3%;
+    font-family: "open sans", sans-serif;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+    background: var(--third-color);
+    color: var(--fith-color);
+}
+
+/* FOOTER */
+.footer {
+    background: var(--primary-color);
+    height: 35%;
+    display: flex;
+    /* align-items: center; Optionnel : pour centrer verticalement le contenu */
+}
+
+footer {
+    display: flex;
+    flex: 1;
+}
+
+.content-footer {
+    flex: 1;
+   /*  border: 1px solid var(--fith-color); Ajout d'une bordure pour visualiser les divisions */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-family: "open sans", sans-serif;
+    color: var(--fith-color);
+}
+
+footer img {
+    width: 40%;
+}
+
+.content-footer a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--fith-color);
+}
+
+/* FOOTER ID's */
+#first-content-footer {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#phone-icon {
+    width: 3%;
+}
+
+#first-content-footer, 
+#phone-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+#phone-icon {
+    margin-top: 15px;
+    margin-left: 5%;
+    width: 4%;
+}
+
+#footer-link {
+    margin-top: 4%;
 }
